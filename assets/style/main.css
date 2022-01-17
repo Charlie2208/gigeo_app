@@ -374,6 +374,9 @@ template {
 .informacion {
   border-bottom: 1px ridge #f0e4e4;
 }
+.informacion__textos-p {
+  color: gray;
+}
 
 .informacion__img {
   width: 100px;
