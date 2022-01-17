@@ -1,0 +1,9 @@
+.navbar-brand img{
+    width: 8.25rem;
+}
+
+@include phone-view{
+    .fa-bars{
+        display: none;
+    }
+}

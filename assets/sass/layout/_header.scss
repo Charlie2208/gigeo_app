@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+    height: auto;
+
+&__img{
+    
+    width: 100%;
+    height: 300px;
+    // object-fit: cover;
+    // object-position: 1;
+    @include img-object-fit(300,cover,1)
+}
+   } 
+   
+
+
+
+  
+// @media screen and (max-width:575px){
+//     .header__img{
+//         width:100%;
+//         height: 200px;
+//     }
+// }
+
+@include phone-view{
+    .header__img{
+        width: 100%;
+        height: 200px;
+    }
+}

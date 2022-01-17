@@ -1,0 +1,23 @@
+.informacion{
+    border-bottom: 1px ridge rgb(240, 228, 228);
+}
+.informacion__img{
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    
+   
+}
+
+@include phone-view{
+    .btn{
+        display: none;
+    }
+
+    .informacion{
+        border-bottom: none;
+        padding-top: 3rem;
+        padding-left: 4rem;
+        
+    }
+}

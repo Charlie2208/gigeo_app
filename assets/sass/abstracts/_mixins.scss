@@ -1,0 +1,24 @@
+@mixin img-object-fit($objectFit-height:200px,$object-fit:cover,$objectFit-positionX:0,$objectFit-positionY:0){
+    width: 100%;
+    height: $objectFit-height;
+    object-fit: $object-fit;
+    object-position: $objectFit-positionX $objectFit-positionY;
+}
+
+@mixin tablet-view{
+    @media (max-width:#{$max-tablet}){
+        @content;
+    }
+}
+
+@mixin phone-view{
+    @media (max-width:#{$max-mobile}){
+        @content;
+    }
+}
+
+@mixin desktop-view{
+    @media (max-width:#{$max-desktop}){
+        @content;
+    }
+}
